@@ -1,2 +1,2 @@
 # Practice
-#JustStarted
+My first projects on HTML and CSS

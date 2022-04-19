@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+html, body{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+header {
+    background-color: black;
+    height: fit-content;
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.6);
+}
+
+h1 {
+    font-weight: 100;
+    text-align: center;
+}
+
+span.bold {
+    font-weight: 900;
+}
+
+section {
+    background-color: black;
+    width:80vw;
+    height:88vh;
+    margin:0 10vw;
+    margin-top: 5vh;
+    padding-top: 1em;
+}
+
+h3 {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2em;
+}
+
+p {
+    margin-left: 4%;
+    margin-bottom: 2%;
+}
+
+p span {
+    color: rgba(128, 128, 128, 1);
+}
+
+.one {
+    margin-right: 1em;
+}
+
+.two {
+    margin-right: 3.6em;
+}
+
+.three {
+    margin-right: 1.5em;
+}
+
+.four {
+    margin-right: 3.7em;
+}
+
+.bottom {
+    border-bottom: 2px solid rgba(128, 128, 128, 1);
+    padding-bottom: .9em;
+    margin-right: 2em;
+}
+
+h4 {
+    margin-left: 4%;
+    margin-bottom: 2%;   
+}
+
+button {
+    background-color: rgba(204, 202, 202, 0.884);
+    border:none;
+    width: 8em;
+    padding: .5em .7em;
+    margin-bottom: 3%;
+    margin-left: 4%;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color:white;
+}
+
+.fa-solid {
+    margin-right:.6em;
+    display: inline;
+}
+
+footer {
+    color: rgba(128, 128, 128, 1);
+    margin-top:5%;
+    text-align: center;
+}
+
+.inline p {
+    display: inline;
+}
+
+p a {
+    text-decoration: none;
+    color: rgba(128, 128, 128, 1);
+}
+
+p a:hover {
+    color: rgba(204, 202, 202, 1);
+}
+
+footer p {
+    text-align: center;
+    margin-top:2%;
+    padding-bottom: 4%;
+    font-size: 13px;
+}
+
+@media screen and (max-width:284px) {
+    * {
+        font-size: 10px;
+    }
+
+    html, body {
+        height:100%;
+    }
+    .align {
+        text-align: center;
+    }
+
+    h4 {
+        text-align: left;
+        margin-top: .5em;
+    }
+
+    footer {
+        font-size: 5px;
+        margin-top: 6em;
+    }
+
+    button {
+        transform: scale(0.7);
+        margin-bottom: -.8em;
+    }
+
+    button:last-child {
+        margin-bottom: .5em;
+    }
+
+    section {
+        height: 60%;
+    }
+}

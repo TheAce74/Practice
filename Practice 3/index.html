@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Vibe">
+    <meta name="Description" content="Gogoanime Duplicate">
+    <title>Gogoanime | Watch Anime Online</title>
+    <script src="https://kit.fontawesome.com/36e8bee060.js" crossorigin="anonymous"></script>
+    <script src="script.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <!--Header Start-->
+  <header>
+      <div class="oneThirdHeader oneThirdHeaderFirst">
+            <p><a href="#"><i class="fa-solid fa-bars fa-3x oldIcon" id="clickMe" onclick = "myFunction()" title="Menu"></i></a></p>
+            <p><a href="#"><i class="fa-solid fa-bars fa-2x newIcon" id="clickMe" onclick = "myFunction()" title="Menu"></i></a></p>
+            <nav class="homeNav">
+                <ul id="homeNavUl">
+                    <li><a href="#"><i class="fa-solid fa-user"></i>Login | Sign Up</a></li>
+                    <li><a href="index.html"><i class="fa-solid fa-list"></i>Home</a></li>
+                    <li><a href="#"><i class="fa-solid fa-film"></i>Anime List</a></li>
+                    <li><a href="#newSeason"><i class="fa-solid fa-clapperboard"></i>New Season</a></li>
+                    <li><a href="#"><i class="fa-solid fa-tape"></i>Movies</a></li>
+                    <li><a href="#"><i class="fa-solid fa-star"></i>Popular</a></li>
+                    <li><a href="#"><i class="fa-solid fa-masks-theater"></i>Genre</a></li>
+                        <br class="clearing">
+                    <div class="homeGenres">
+                        <div class="spaces">Action</div>
+                        <div class="spaces">Cars</div>
+                        <div class="spaces">Crime</div>
+                        <div class="spaces">Demons</div>
+                        <div class="spaces">Dub</div>
+                        <div class="spaces">Family</div>
+                        <div class="spaces">Game</div>
+                        <div class="spaces">Gourmet</div>
+                        <div class="spaces">Hentai</div>
+                        <div class="spaces">Horror</div>
+                        <div class="spaces">Kids</div>
+                        <div class="spaces">Martial Arts</div>
+                        <div class="spaces">Military</div>
+                        <div class="spaces">Mystery</div>
+                        <div class="spaces">Police</div>
+                        <div class="spaces">Romance</div>
+                        <div class="spaces">School</div>
+                        <div class="spaces">Seinen</div>
+                        <div class="spaces">Shoujo Ai</div>
+                        <div class="spaces">Shounen Ai</div>
+                        <div class="spaces">Space</div>
+                        <div class="spaces">Super Power</div>
+                        <div class="spaces">Suspense</div>
+                        <div class="spaces spaces1">Vampire</div> 
+                    </div>
+                    <div class="homeGenres">
+                        <div class="spaces">Adventure</div>
+                        <div class="spaces">Comedy</div>
+                        <div class="spaces">Dementia</div>
+                        <div class="spaces">Drama</div>
+                        <div class="spaces">Ecchi</div>
+                        <div class="spaces">Fantasy</div>
+                        <div class="spaces">Gender Bende</div>
+                        <div class="spaces">Harem</div>
+                        <div class="spaces">Historical</div>
+                        <div class="spaces">Josei</div>
+                        <div class="spaces">Magic</div>
+                        <div class="spaces">Mecha</div>
+                        <div class="spaces">Music</div>
+                        <div class="spaces">Parody</div>
+                        <div class="spaces">Psychological</div>
+                        <div class="spaces">Samurai</div>
+                        <div class="spaces">Sci-Fi</div>
+                        <div class="spaces">Shoujo</div>
+                        <div class="spaces">Shounen</div>
+                        <div class="spaces">Slice Of Life</div>
+                        <div class="spaces">Sports</div>
+                        <div class="spaces">Supernatural</div>
+                        <div class="spaces">Thriller</div>
+                        <div class="spaces">Work Life</div>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+        <div class="oneThirdHeader">
+            <img class="logo newLogo" src="images/logo.png" alt="">
+        </div>
+        <div class="oneThirdHeader oneThirdHeaderLast div1">
+            <form id="form1" action="https://www.gogoanime.fi" target="_blank" method="POST">
+            <button type="button" id="arrow"><a href="#"><i class="fa-solid fa-arrow-left-long" onclick="search()"></i></a></button>
+            <input class="input" type="search" placeholder="Search Anime" name="Search">
+            <button class="search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <p class="searchIcon"><i id="icon1" class="fa-solid fa-magnifying-glass fa-3x oldIcon" title="Search" onclick="search()"><a href="#"></a></i></p>
+        </div>
+        <div class="oneThirdHeader oneThirdHeaderLast div2">
+            <form id="form2" action="https://www.gogoanime.fi" target="_blank" method="POST">
+                <button type="button" id="arrow"><a href="#"><i class="fa-solid fa-arrow-left-long" onclick="newSearch()"></i></a></button>
+                <input class="input" type="search" placeholder="Search Anime" name="Search">
+                <button class="search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            <p class="searchIcon"><i id="icon2" class="fa-solid fa-magnifying-glass fa-2x newIcon newSearch" title="Search" onclick="newSearch()"><a href="#"></a></i></p>
+        </div>
+  </header>
+  <!--Header End-->
+  <!--First Section Start-->
+  <section>
+    <div class="sectionHeader">
+        <span>RECENT RELEASE</span><span style="color: black;"> |</span><span class="black"> DUB</span>
+    </div>
+    <div class="homePic">
+        <a href="#"><img class="homeImage" src="images/sore-sunawachi-sketch.png" alt=""></a>
+        <p class="home"><a class="homePicText" href="#">Sore, Sunawachi Sketch.</a></p>
+        <p>Episode 8</p>
+    </div>
+    <div class="homePic">
+        <a href="#"><img class="homeImage" src="images/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-3rd-season.png" alt=""></a>
+        <p class="home"><a class="homePicText" href="#">Honzuki no Gekokujo: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen 3rd Season</a></p>
+        <p>Episode 0.2</p>
+    </div>
+    <div class="homePic">
+        <a href="#"><img class="homeImage" src="images/sasaki-to-miyano.png" alt=""></a>
+        <p class="home"><a class="homePicText" href="#">Sasaki no Miyano</a></p>
+        <p>Episode 12</p>
+    </div>
+    <br class="clearing noclear1 clear">
+    <div class="homePic">
+        <a href="#"><img class="homeImage" src="images/futsal-boys.png" alt=""></a>
+        <p class="home"><a class="homePicText" href="#">Futsal Boys!!!!!</a></p>
+        <p>Episode 12</p>
+    </div>
+    <div class="homePic">
+        <a href="#"><img class="homeImage" src="images/sabiiro-no-armor-reimei.png" alt=""></a>
+        <p class="home"><a class="homePicText" href="#">Sabiiro no Armor: Reimei</a></p>
+        <p>Episode 12</p>
+    </div>
+    <br class="clearing noclear2">
+    <div class="homePic bo">
+        <a href="#"><img class="homeImage" src="images/baraou-no-souretsu.png" alt=""></a>
+        <p class="home"><a class="homePicText" href="#">Baraou no Souretsu</a></p>
+        <p>Episode 12</p>
+    </div>
+    <br class="clearing noclear1">
+    <div class="homePic">
+        <a href="#"><img class="homeImage" src="images/boruto-naruto-next-generations.png" alt=""></a>
+        <p class="home"><a class="homePicText" href="#">Boruto: Naruto Next Generations</a></p>
+        <p>Episode 242</p>
+    </div>
+    <div class="homePic">
+        <a href="#"><img class="homeImage" src="images/shenmue-the-animation.png" alt=""></a>
+        <p class="home"><a class="homePicText" href="#">Shenmue the Animation</a></p>
+        <p>Episode 8</p>
+    </div>
+    <br class="noclear">
+    <div class="homePic">
+        <a href="#"><img class="homeImage ba stop" src="images/bang-dream-5th-anniversary-animation-circle-thanks-party.png" alt=""></a>
+        <p class="home"><a class="homePicText" href="#">BanG Dream! 5th Anniversary Animation: Circle Thanks Party</a></p>
+        <p>Episode 2</p>
+    </div>
+    <br class="clearing noclear1 clear">
+    <div class="homePic wa">
+        <a href="#"><img class="homeImage stop stop2" src="images/waccha-primagi.png" alt=""></a>
+        <p class="home"><a class="homePicText" href="#">Wacha PriMagi!</a></p>
+        <p>Episode 24</p>
+    </div>
+    <br class="clearing noclear2 noclear">
+    <div class="homePic bo">
+        <a href="#"><img class="homeImage" src="images/shaman-king-2021.png" alt=""></a>
+        <p class="home"><a class="homePicText" href="#">Shaman King (2021)</a></p>
+        <p>Episode 48</p>
+    </div>
+    <div class="homePic bo">
+        <a href="#"><img class="homeImage" src="images/massara.png" alt=""></a>
+        <p class="home"><a class="homePicText" href="#">Massara</a></p>
+        <p>Episode 1</p>
+    </div>
+    <br class="clearing noclear1">
+    <div class="homePic">
+        <a href="#"><img class="homeImage" src="images/kamen-no-ninja-akakage.png" alt=""></a>
+        <p class="home"><a class="homePicText" href="#">Kamen no Ninja Akakage</a></p>
+        <p>Episode 3</p>
+    </div>
+    <div class="homePic">
+        <a href="#"><img class="homeImage" src="images/kaijin-kaihatsu-bu-no-kuroitsu-san.png" alt=""></a>
+        <p class="home"><a class="homePicText" href="#">Kaijin Kaihatsu-bu no Kuroitsu-san</a></p>
+        <p>Episode 11</p>
+    </div>
+    <div class="homePic">
+        <a href="#"><img class="homeImage" src="images/rymans-club.png" alt=""></a>
+        <p class="home"><a class="homePicText" href="#">Ryman's Club</a></p>
+        <p>Episode 9</p>
+    </div>
+    <br class="clearing clear">
+    <div class="homePic">
+        <a href="#"><img class="homeImage" src="images/yume-senshi-wingman.png" alt=""></a>
+        <p class="home"><a class="homePicText" href="#">Yume Senshi Wingman</a></p>
+        <p>Episode 16</p>
+    </div>
+    <div class="homePic">
+        <a href="#"><img class="homeImage" src="images/genjitsu-shugi-yuusha-no-oukoku-saikenki-part-2.png" alt=""></a>
+        <p class="home"><a class="homePicText" href="#">Genjitsu Shugi Yuusha no Oukoku Saikenki Part 2</a></p>
+        <p>Episode 12</p>
+    </div>
+    <div class="homePic">
+        <a href="#"><img class="homeImage" src="images/lupin-iii-part-6.png" alt=""></a>
+        <p class="home"><a class="homePicText" href="#">Lupin III: Part 6</a></p>
+        <p>Episode 24</p>
+    </div>
+    <br class="clearing noclear1">
+    <div class="homePic">
+        <a href="#"><img class="homeImage" src="images/akebi-chan-no-sailor-fuku.png" alt=""></a>
+        <p class="home"><a class="homePicText" href="#">Akebi Chan no Sailor Fuku</a></p>
+        <p>Episode 12</p>
+    </div>
+    <div class="homePic">
+        <a href="dressup12.html"><img class="homeImage" src="images/sono-bisque-doll-wa-koi-wo-suru.png" alt=""></a>
+        <p class="home"><a class="homePicText" href="mydressupdarling.html">Sono Bisque Doll wa Koi wo Suru</a></p>
+        <p>Episode 12</p>
+    </div>
+    <br class="clearing">
+</section>
+<!--First Section End-->
+<!--Second Section Start-->
+<section>
+    <div class="sectionHeader"><span class="black" id="newSeason"> ONGOING UPDATE</span></div>
+    <div class="smallPic">
+        <a href="#"><img class="smallImage" src="images/princess-connect-redive-season-2.png" alt=""></a>
+        <div class="sideText">
+            <p class="homePicText2"><a class="homePicText" href="#">Princess Connect! Re:Dive Season 2 </a></p>
+            <p><span class="genre">Genres: Action, Adventure, Comedy, Fantasy</span></p>
+            <p><span class="genre">Latest:</span> Episode 11</p>
+        </div>
+    </div>
+    <br class="clearing">
+    <div class="smallPic">
+        <a href="#"><img class="smallImage" src="images/vanitas-no-carte-part-2.png" alt=""></a>
+        <div class="sideText">
+            <p class="homePicText2"><a class="homePicText" href="#">Vanitas no Carte Part 2</a></p>
+            <p><span class="genre">Genres: Historical, Shounen, Supernatural, Vampire</p></span>
+            <p><span class="genre">Latest:</span> Episode 11</p>
+        </div>
+    </div>
+    <br class="clearing">
+    <div class="smallPic">
+        <a href="aot12.html"><img class="smallImage" src="images/shingeki-no-kyojin-the-final-season-part-2.png" alt=""></a>
+        <div class="sideText">
+            <p class="homePicText2"><a class="homePicText" href="aot.html">Shingeki no Kyojin: The Final Season Part 2</a></p>
+            <p><span class="genre">Genres: Action, Drama, Fantasy, Military, Mystery, Shounen, Super Power</p></span>
+            <p><span class="genre">Latest:</span> Episode 12</p>
+        </div>
+    </div>
+    <br class="clearing">
+    <div class="smallPic">
+        <a href="#"><img class="smallImage" src="images/genjitsu-shugi-yuusha-no-oukoku-saikenki-part-2.png" alt=""></a>
+        <div class="sideText">
+            <p class="homePicText2"><a class="homePicText" href="#">Genjitsu Shugi Yuusha no Oukoku Saikenki Part 2</a></p>
+            <p><span class="genre">Genres: Action, Fantasy, Romance</p></span>
+            <p><span class="genre">Latest:</span> Episode 12</p>
+        </div>
+    </div>
+    <br class="clearing">
+    <div class="smallPic">
+        <a href="#"><img class="smallImage" src="images/arifureta-shokugyou-de-sekai-saikyou-2nd-season.png" alt=""></a>
+        <div class="sideText">
+            <p class="homePicText2"><a class="homePicText" href="#">Arifureta Shokugyou de Sekai Saikyou 2nd Season</a></p>
+            <p><span class="genre">Genres: Action, Adventure, Fantasy, Harem</p></span>
+            <p><span class="genre">Latest:</span> Episode 11</p>
+        </div>
+    </div>
+    <br class="clearing">
+    <div class="smallPic">
+        <a href="#"><img class="smallImage" src="images/detective-conan.png" alt=""></a>
+        <div class="sideText">
+            <p class="homePicText2"><a class="homePicText" href="#">Detective Conan</a></p>
+            <p><span class="genre">Genres: Adventure, Comedy, Mystery, Police, Psychological, Shounen</p></span>
+            <p><span class="genre">Latest:</span> Episode 1038</p>
+        </div>
+    </div>
+    <br class="clearing">
+    <div class="smallPic">
+        <a href="#"><img class="smallImage" src="images/shaman-king-2021.png" alt=""></a>
+        <div class="sideText">
+            <p class="homePicText2"><a class="homePicText" href="#">Shaman King (2021)</a></p>
+            <p><span class="genre">Genres: Action, Adventure, Comedy, Shounen, Super Power, Supernatural</p></span>
+            <p><span class="genre">Latest:</span> Episode 48</p>
+        </div>
+    </div>
+    <br class="clearing">
+    <div class="smallPic">
+        <a href="#"><img class="smallImage" src="images/pokemon-2019.png" alt=""></a>
+        <div class="sideText">
+            <p class="homePicText2"><a class="homePicText" href="#">Pokemon (2019)</a></p>
+            <p><span class="genre">Genres: Action, Adventure, Comedy, Fantasy, Kids</p></span>
+            <p><span class="genre">Latest:</span> Episode 102</p>
+        </div>
+    </div>
+    <br class="clearing">
+    <div class="smallPic">
+        <a href="#"><img class="smallImage" src="images/boruto-naruto-next-generations.png" alt=""></a>
+        <div class="sideText">
+            <p class="homePicText2"><a class="homePicText" href="#">Boruto: Naruto Next Generations</a></p>
+            <p><span class="genre">Genres: Action, Adventure, Martial Arts, Shounen, Super Power</p></span>
+            <p><span class="genre">Latest:</span> Episode 242</p>
+        </div>
+    </div>
+    <br class="clearing">
+    <div class="smallPic">
+        <a href="#"><img class="smallImage" src="images/One-piece.jpg" alt=""></a>
+        <div class="sideText">
+            <p class="homePicText2"><a class="homePicText" href="#">One Piece</a></p>
+            <p><span class="genre">Genres: Action, Adventure, Comedy, Fantasy, Shounen, Super Power</p></span>
+            <p><span class="genre">Latest:</span> Episode 1013</p>
+        </div>
+    </div>
+    <br class="clearing">
+</section>
+<!--Second Section End-->
+<p class="new">We moved site to <a class="newLink" href="https://www.gogoanime.fi" target="_blank">Gogoanime.fi</a>. Please bookmark new site. Thank you!</p>
+<!--Footer Start-->
+<footer>
+    <div class="footer">
+        <p><a href="#"><i class="fa-solid fa-arrow-up fa-2x"></i></a></p>
+        <nav>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="mailto:udonsichisom@yahoo.com">Contact Us</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+<!--Footer End-->
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rocket Design - Mobile Web Design Services</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+	<link href="style.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet"/>
+	<link rel="shortcut icon" type="image/png" href="img/icons/favicon.png"/>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="bannerWrapper">
+			<header>
+				<div id="headerInner">
+					<a href="index.html" id="logo" title="Rocket Design"></a>
+					<nav>
+						<a href="#" id="menuIcon"></a>
+						<ul>
+							<li><a href="index.html" class="current">Home</a></li>
+							<li><a href="#">Skills</a></li>
+							<li><a href="#">Portfolio</a></li>
+							<li><a href="#">Our Team</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+<!--- Slider Start -->
+		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
+		<div class="sliderWrap">
+			<section class="slider">
+				<ul class="slider1">
+					<li><img src="img/pics/desktop-1.png" alt=""></li>
+					<li><img src="img/pics/desktop-2.png" alt=""></li>
+					<li><img src="img/pics/desktop-3.png" alt=""></li>
+				</ul>
+			</section>
+		</div>
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+		</script>
+<!--- Slider End -->
+		</div>
+<!--Start Three Column Icon-->
+		<section class="oneThird">
+			<div class="iconWrap">
+				<td><i class="fa fa-desktop"></i></td>
+			</div>
+			<h3>Web Design</h3>
+		</section>
+		<section class="oneThird">
+			<div class="iconWrap">
+				<td><i class="fa fa-pencil-square-o"></i></td>
+			</div>
+			<h3>Digital Graphics</h3>
+		</section>
+		<section class="oneThird">
+			<div class="iconWrap">
+				<td><i class="fa fa-file-code-o"></i></td>
+			</div>
+			<h3>Development</h3>
+		</section>
+<!--End Three Column Icon-->
+		<section class="leftCol clearing">
+			<p>
+				We create strategies based on the outcomes you expect to see for your company.
+				The process for developing award-winning brands and campaigns begins by looking at the big picture.
+				Every effort that goes into development and production of a project should be made with the end goal, or rather, the Big Picture in mind.
+			</p>
+		</section>
+		<section class="sideBar">
+			<img src="img/pics/computer-white.png" alt="">
+		</section>
+<!--End of Left Column and Sidebar Image-->
+		<section class="oneThirdPadding clearing">
+			<h3>Our Skills One</h3>
+			<img src="img/pics/computer-gal.png" alt="">
+			<p>
+				We start each project by gathering information and client's requirement, which means lots of client discussions &amp; research
+			</p>
+		</section>
+		<section class="oneThirdPadding">
+			<h3>Our Skills Two</h3>
+			<img src="img/pics/900-644.png" alt="">
+			<p>
+				We start each project by gathering information and client's requirement, which means lots of client discussions &amp; research
+			</p>
+		</section>
+		<section class="oneThirdPadding">
+			<h3>Our Skills Three</h3>
+			<img src="img/pics/computer-guy.png" alt="">
+			<p>
+				We start each project by gathering information and client's requirement, which means lots of client discussions &amp; research
+			</p>
+		</section>
+<!--End One Third Padding Sections-->
+	</div> <!--End Wrapper-->
+<!--Start Footer-->
+	<footer class="clearing">
+		<div id="bannerWrapper">
+			<div class="iconText">
+				<div class="iconTextIcon">
+					<ul class="footerNav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#">Skills</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Our Team</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+				<div class="iconTextText">
+					<ul class="social">
+						<li><a href="mailto:rocketdesign@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+						<li><a href="https://facebook.com/rocketdesign"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://plus.google.com/rocketdesign/posts"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="https://twitter.com/rocketdesign"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://youtube.com/rocketdesign"><i class="fa fa-youtube"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<footer class="second">
+		<p>&copy; Rocket Design.</p>
+	</footer>
+<!--End Footer-->
+</body>
+</html>

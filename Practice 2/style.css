@@ -1,0 +1,359 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #f1f6f8;
+	font-family: sans-serif;
+	margin: 0 auto;
+}
+
+p {
+	font-family: 'Alegreya Sans', sans-serif;
+	color: #524c56;
+	font-size: 160%;
+	line-height: 155%;
+	text-indent: 2%;
+	text-align: justify;
+}
+
+h3 {
+	font-size: 175%;
+	line-height: 155%;
+	font-weight: 500;
+	color: #524c56;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0;
+}
+
+a {
+	color: #524c56;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #c3d7df;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+#wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#bannerWrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 0 3% 0;
+}
+
+header {
+	width: 100%;
+	height: 100px;
+	top: 0;
+	left: 0;
+}
+
+#logo {
+	margin: 20px;
+	float: left;
+	width: 200px;
+	height: 60px;
+	background: url(img/icons/RD-dark.png) no-repeat center;
+}
+
+/*--Start Nav--*/
+nav {
+	float: right;
+	padding: 25px 20px 0px 0px;
+}
+
+#menuIcon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url(img/icons/nav-dark.png) center;
+}
+
+ul {
+	list-style: none;
+}
+
+nav ul li {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 150%;
+	display: inline-block;
+	padding: 10px;
+}
+
+nav ul li a {
+	color: #6991ac;
+}
+
+.current {
+	color:#3f5767;
+}
+
+a:hover {
+	color: #a5bdcd;
+}
+/*--End Nav--*/
+
+.slider {
+	max-width: 1200px;
+}
+
+.slider1 img {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.slider .bx-wrapper .bx-controls-direction a {
+	display: none;
+}
+
+.oneThird {
+	width: 33.3333333%;
+	float: left;
+	text-align: justify;
+	text-align: center;
+}
+
+.iconWrap {
+	margin: 0 auto;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	text-align: center;
+	background-color: #6991ac;
+	margin-top: 8%;
+	margin-bottom: 3%;
+}
+
+.clearing {
+	clear: both;
+}
+
+.iconWrap i {
+	text-align: center;
+	color: #f0f0f0;
+	font-size: 450%;
+	padding: 20%;
+}
+
+.leftCol {
+	float:left;
+	margin: 0 auto;
+	width: 60%;
+	height: auto;
+	padding:1%;
+}
+
+.sideBar {
+	float: right;
+	margin: 0 auto;
+	width: 32%;
+	height: auto;
+	padding: 1%;
+}
+
+.oneThirdPadding{
+	width: 29%;
+	float: left;
+	margin: 2%;
+	text-align: justify;
+}
+
+/*--Start Footer--*/
+footer {
+	background-color: #6991ac;
+	width: 100%;
+	overflow: hidden;
+}
+
+.iconText {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.iconTextIcon {
+	float: left;
+	width: 20%;
+	padding: 4%;
+}
+
+.iconTextText {
+	width: 64%;
+	float: left;
+	padding: 4% 4% 2% 0%;
+}
+
+.footerNav {
+	text-align: right;
+}
+
+.footerNav a {
+	font-size: 160%;
+	color: #c3d7df;
+	font-weight: 300;
+}
+
+.footerNav a:hover {
+	color: #f5f5f5;
+}
+
+.social {
+	list-style-type: none;
+	text-align: center;
+}
+
+.social li {
+	display: inline;
+}
+
+.social i{
+	font-size: 380%;
+	margin: 1%;
+	padding: 5% 5% 5% 4%;
+	color: #c3d7df;
+}
+
+.social i:hover {
+	color: #f5f5f5;
+}
+
+footer.second {
+	border-top: 1px solid #aadcd2;
+	background-color: #544b59;
+	max-height: 50px;
+	text-align: center;
+	margin: 0%;
+}
+
+footer.second p {
+	padding: 5px 0 9px 0;
+	color:#f5f5f5;
+	font-size: 150%;
+	line-height: 155%;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	p {
+		font-size: 130%;
+	}
+
+	h3 {
+		font-size: 150%;
+	}
+
+	header {
+		height: 80px;
+		position: relative;
+	}
+
+	#logo {
+		margin: 15px 0 20px -25px;
+		background: url(img/icons/RD_mobile-dark.png) no-repeat center;
+	}
+
+	#menuIcon {
+		display: inline-block;
+	}
+
+	nav:hover ul {
+		display: block;
+	}
+
+	nav ul, nav:active ul{
+		display: none;
+		z-index: 1000;
+		position: absolute;
+		padding: 20px;
+		background-color: #f5f5f5;
+		border: 1px solid #a5bdcd;
+		right: 20px;
+		width: 50%;
+		border-radius: 5px 0 5px 5px;
+		opacity: 0.9;
+	}
+
+	nav li {
+		text-align: center;
+		width: 100%;
+	}
+
+	.oneThird {
+		width: 100%;
+		float: left;
+	}
+
+	.iconWrap {
+		height: 80px;
+		width: 80px;
+		margin-top: 3%;
+	}
+
+	.iconWrap i {
+		font-size: 250%;
+		padding-top: 20%;
+	}
+
+	.leftCol {
+		width: 100%;
+		padding: 0;
+	}
+
+	.sideBar{
+		width: 100%;
+		padding:0;
+	}
+
+	.oneThirdPadding {
+		width: 90%;
+		margin: 0 auto;
+		padding: 1%;
+	}
+
+	.iconTextIcon {
+		width: 100%;
+		padding: 0 0 2% 0;
+	}
+
+	.iconTextText {
+		width: 100%;
+		padding: 2% 0 0 0;
+		font-size: 80%;
+	}
+
+	.footerNav {
+		text-align: center;
+		padding-top: 5%;
+	}
+
+	.footerNav li {
+		padding: 1%;
+	}
+
+	.footerNav a {
+		font-size: 145%;
+	}
+
+	.social i {
+		font-size: 180%;
+	}
+}

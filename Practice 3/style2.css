@@ -1,0 +1,307 @@
+.sectionHeader2 {
+    font-size:90%;
+    text-transform: uppercase;
+}
+
+section p, section p a {
+    color: yellow;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+p a:hover {
+    color:#ff761a;
+}
+
+span:hover {
+    color:white;
+    cursor:default;
+}
+
+.green a, .green {
+    color:#0e970e;
+    margin: 0%;
+}
+
+.green a:hover {
+    color:#11e611;
+}
+
+.top {
+    margin-top: 3%;
+}
+
+.select {
+    margin: 4% 3%;
+}
+
+.fa-arrow-down, .fa-heart {
+    color: white;
+}
+
+.btn {
+    width: fit-content;
+    padding: 1% .5%;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.yellowBtn {
+    background-color: yellow;
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+.yellowBtn:hover {
+    background-color: #ff761a;
+}
+
+.greenBtn {
+    background-color: #0e970e;
+    margin-left: 2%;
+    padding-left:4px;
+    padding-right: 5px;
+}
+
+.greenBtn:hover {
+    background-color: #11e611;
+}
+
+.download:hover, .favorite:hover {
+    color:white;
+}
+
+.report {
+    vertical-align: bottom;
+    margin-left: 5%;
+}
+
+.report:hover {
+    opacity:50%;
+}
+
+video {
+    width: 94%;
+    margin: auto 3%;
+}
+
+.back {
+    margin-left: 0;
+}
+
+.greenHeader {
+    margin: 3%;
+}
+
+.greenHeader:hover {
+    color:#0e970e;
+}
+
+.border {
+    margin:4% 3%;
+    border-top: 1.7px solid rgba(128, 128, 128, .6);
+    width: 94%;
+    height:42vh;
+    border-bottom: none;
+    margin-bottom: 1%;
+}
+
+.serverHead {
+    margin-top:5%;
+}
+
+.server {
+    width: 100%;
+    height:calc(0.16667*42vh);
+    margin-top: 1%;
+}
+
+.black {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.ash {
+    background-color: rgba(128, 128, 128, 0);
+    margin-top:.2%;
+    margin-bottom: -1%;
+}
+
+.fa-video {
+    background-color: orange;
+    padding: .55em .5em;
+    margin-right: 1.5%;
+}
+
+.fa-tv {
+    color: red;
+    padding: .55em .5em;
+    margin-right: 1.4%;
+}
+
+.fa-circle-play {
+    color: yellow;
+    padding: .55em .5em;
+    margin-right: 1.7%;
+}
+
+.one {
+    background-color: green;
+    padding: .55em .5em;
+    margin-right: 1.65%;
+}
+
+.fa-dyalog {
+    background-color: orange;
+    color:orange;
+    padding: .55em .5em;
+    margin-right: 2%;
+    border-radius: 0 50% 50% 0;
+}
+
+.width {
+    display: inline-block;
+    width: 7em;
+}
+
+button.choose {
+    width: 10.5em;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    height: calc(0.1566667*42vh);
+    margin-left: 60%;
+    cursor: pointer;
+}
+
+button.choose:visited, button.choose:hover, button.choose:active {
+    background-color: yellow;
+}
+
+.choose a {
+    color: white;
+}
+
+.choose a:hover {
+    color:white;
+}
+
+p.white {
+    margin:0;
+    vertical-align: middle;
+    color: white;
+    padding-left: 3%;
+}
+
+.current {
+    background-color: yellow;
+}
+
+.current:hover {
+    background-color: yellow;
+}
+
+.new {
+    padding-top: .2%;
+    padding-bottom: .2%;
+    width:100%;
+    height:fit-content;
+    position: fixed;
+    bottom:0;
+    background-color: rgba(128, 128, 128, 1);
+    z-index: 2000;
+    vertical-align: middle;
+    margin-right: 0;
+    margin-left: 0;
+    color: white;
+}
+
+.newLink {
+    text-decoration: none;
+    color: yellow;
+    margin: 0;
+}
+
+.newLink:hover {
+    color: #ff761a
+}
+
+@media screen and (max-width:850px) {
+    button.choose {
+        margin-left: 40%;
+    }
+
+    .fa-tv {
+        margin-right: 1.1%;
+    }
+    
+    .fa-circle-play {
+        margin-right: 1.9%;
+    }
+    
+    .one {
+        margin-right: 1.5%;
+    }
+    
+    .fa-dyalog {
+        margin-right: 2.5%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    button.choose {
+        margin-left: 34%;
+    }
+
+    .fa-video {
+        margin-right: 1.1%;
+    }
+
+    .fa-tv {
+        margin-right: 1.1%;
+    }
+    
+    .fa-circle-play {
+        margin-right: 1.9%;
+    }
+    
+    .one {
+        margin-right: 1.5%;
+    }
+    
+    .fa-dyalog {
+        margin-right: 2.5%;
+    }
+}
+
+@media screen and (max-width:520px) {
+    button.choose {
+        margin-left: 32%;
+    }
+
+    .fa-video {
+        margin-right: 1.1%;
+    }
+
+    .fa-tv {
+        margin-right: 1.1%;
+    }
+    
+    .fa-circle-play {
+        margin-right: 1.9%;
+    }
+    
+    .one {
+        margin-right: 1.5%;
+    }
+    
+    .fa-dyalog {
+        margin-right: 2.5%;
+    }
+}
+
+@media screen and (max-width:284px){
+    button.choose {
+        margin-left: 15%;
+    }
+}

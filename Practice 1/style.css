@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter -  Zero Zero.woff") format("woff"),
+    url("Fonts/Booter -  Zero Zero.woff2") format("woff2");
+}
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html, body {
+    margin:0px;
+}
+
+.nav ul{
+    margin:0px;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding:0.5em;
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+background-color: rgba(255,255, 255, 0.3);
+}
+
+.mainNav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.mainNav li{
+    padding:0 5%;
+}
+
+.mainHeader{
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url("images/1.jpeg");
+    background-blend-mode: normal;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.bandName{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bandNameLarge {
+    font-size: 9em;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btnHeader {
+    margin: 0.5em 15% 2em 15%;
+    color: rgba(255, 255, 255, 1);
+    border: 2px;
+    border-style: solid;
+    border-color: #2d9cd8;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btnHeader:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.playBtn {
+    display: block;
+    margin: 0 auto;
+    color: #2d9cd8;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.contentSection {
+    margin: 1em;
+    text-align: justify;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0px auto;
+    padding: 0 1.5em;
+}
+
+.sectionHeader {
+    font-family: 'Metal Mania', cursive;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.aboutImage {
+    float:left;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    border-radius: 100px;
+}
+
+.clearing {
+    clear: left;
+}
+
+.tourRow {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin: 1em;
+    text-transform: uppercase;
+}
+
+.tourRow:last-child {
+    border-style:none;
+}
+
+.tourItem {
+    display: inline-block;
+    padding-right: 0.5em;
+}
+
+.tourDate {
+    color:#555;
+    font-weight: bold;
+    width:11%;
+}
+
+.tourCity {
+    width: 24%;
+}
+
+.tourArena {
+    width: 42%;
+}
+
+.tourBtn {
+    max-width: 19%;
+    color: white;
+    background-color: #56ccf2;
+    border: none;
+    border-radius: 0.3em;
+    font-weight: bold;
+}
+
+.tourBtn:hover {
+    background-color: #2d9cd8;
+}
+
+.shopItem {
+    margin: 30px;
+}
+
+.shopItemTitle {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shopItemImage {
+    height: 250px;
+    width: 250px;
+}
+
+.shopItemDetails {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shopItemPrice {
+    flex-grow: 1;
+    color: #333;
+}
+
+.shopItemBtn {
+    max-width: max-content;
+}
+
+.shopItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cartHeader{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cartColumn {
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.cartRow{
+    display: flex;
+}
+
+.cartItem {
+    width: 45%;
+}
+
+.cartPrice {
+    width: 20%;
+}
+
+.cartQuantity {
+    width: 35%;
+}
+
+.cartItemTitle {
+    color: #333;
+    margin-left: 0.5em;
+    font-size: 1.2em;
+}
+
+.cartPrice {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.btnDanger {
+    color: white;
+    background-color: #eb5757;
+    border: none;
+    border-radius: 0.3em;
+    font-weight: bold;
+}
+
+.btnDanger:hover{
+    background-color: #cc4c4c;
+}
+
+.cartQuantityInput{
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56ccf2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.penultimateRow {
+    border-bottom: 1px solid black;
+}
+
+.newColumn{
+    border: none;
+    padding-bottom: 10px;
+}
+
+.cartTotal {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cartTotalTitle{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cartTotalPrice {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.finalBtn {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+    max-width: 70%;
+}
+
+.mainFooter {
+    background-color: #56ccf2;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 0.25em 0;
+}
+
+.mainFooter li {
+    display: inline;
+}
+
+.mainFooter li a {
+    display: inline-block;
+    padding:0.8em;
+    text-decoration: none;
+    color: white;
+}
+
+.mainFooterContainer {
+    display: flex;
+    align-items: center;
+    padding: 0 3em;
+}
+
+.mainFooterContainer ul {
+    flex-grow: 1;
+    text-align: end;
+}

@@ -1,0 +1,219 @@
+.container {
+    max-width:1100px;
+    margin: 0 auto;
+    overflow: visible;
+    padding: 0 40px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .2), 0 6px 20px rgba(0, 0, 0, .19);
+    padding: 20px;
+    margin: 10px;
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: var(--primaryColor);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btnOutline {
+    background-color: transparent;
+    border: 1px #fff solid;
+}
+
+.btn:hover {
+    transform: scale(.98);
+}
+
+.bgPrimary, .btnPrimary {
+    background-color: var(--primaryColor);
+    color: #fff;
+}
+
+.bgSecondary, .btnSecondary {
+    background-color: var(--secondaryColor);
+    color: #fff;
+}
+
+.bgDark, .btnDark {
+    background-color: var(--darkColor);
+    color: #fff;
+}
+
+.bgLight, .btnLight {
+    background-color: var(--lightColor);
+    color: #333;
+}
+
+.textPrimary {
+    color: var(--primaryColor);
+}
+
+.textSecondary {
+    color: var(--secondaryColor);
+}
+
+.textDark {
+    color: var(--darkColor);
+}
+
+.textLight {
+    color: var(--lightColor);
+}
+
+.xl {
+    font-size: 4rem;
+}
+
+.lg {
+    font-size: 3rem;
+}
+
+.md {
+    font-size: 2rem;
+}
+
+.sm {
+    font-size: 1rem;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.grid3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.noCenter {
+    text-align: left;
+}
+
+.alert {
+    background-color: var(--lightColor);
+    padding: 10px 20px 30px;
+    font-weight: bold;
+    margin:15px 0;
+}
+
+.alert i {
+    margin-right: 10px;
+}
+
+.alertSuccess {
+    background-color: var(--successColor);
+    color: #fff;
+}
+
+.alertError {
+    background-color: var(--errorColor);
+    color: #fff;
+}
+
+.my1 {
+    margin: 1rem 0;
+}
+
+.my2 {
+    margin: 1.5rem 0;
+}
+
+.my3 {
+    margin: 2rem 0;
+}
+
+.my4 {
+    margin: 3rem 0;
+}
+
+.my5 {
+    margin: 4rem 0;
+}
+
+.m1 {
+    margin: 1rem;
+}
+
+.m2 {
+    margin: 1.5rem;
+}
+
+.m3 {
+    margin: 2rem;
+}
+
+.m4 {
+    margin: 3rem;
+}
+
+.m5 {
+    margin: 4rem;
+}
+
+.py1 {
+    padding: 1rem 0;
+}
+
+.py2 {
+    padding: 1.5rem 0;
+}
+
+.py3 {
+    padding: 2rem 0;
+}
+
+.py4 {
+    padding: 3rem 0;
+}
+
+.py5 {
+    padding: 4rem 0;
+}
+
+.p1 {
+    padding: 1rem;
+}
+
+.p2 {
+    padding: 1.5rem;
+}
+
+.p3 {
+    padding: 2rem;
+}
+
+.p4 {
+    padding: 3rem;
+}
+
+.p5 {
+    padding: 4rem;
+}
